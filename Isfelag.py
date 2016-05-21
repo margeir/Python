@@ -15,9 +15,9 @@ if context.CurrentPack.Record.Pallet == None:
 	trace.Put("No Pallet for pack")
 else:
 	trace.Put("Pack has Pallet")
-	if context.CurrentPallet.Record.Weight > 1:
-		trace.Put("Pallet has more than 1 pack so update required")
+	if context.CurrentPallet.Record.Weight > 0:
+		trace.Put("Brettið er með þyngd á sér {0}",context.CurrentPallet.Weight)
 		context.CurrentPack.Record.Weight = (context.CurrentPack.Record.Weight) - (context.CurrentPallet.Weight)
-		trace.Put("Pallet weight set to pack count times fixed weight")
+		trace.Put("Ný þyngd á pakka er {0}", context.CurrentPack.Weight)
 	else:
 		trace.Put("Ekki 1 pakki á bretti!!!!")
