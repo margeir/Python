@@ -1,0 +1,2 @@
+# Python
+Er opið öllum
