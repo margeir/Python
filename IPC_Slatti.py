@@ -30,3 +30,5 @@ else:
 		context.CurrentPallet.Record.CurAmount = brettif + pakkie
 	else:
 		trace.Put("Nýtt bretti!!!!")
+        
+   #TEST
