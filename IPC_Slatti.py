@@ -31,4 +31,4 @@ else:
 	else:
 		trace.Put("Nýtt bretti!!!!")
         
-   #TEST
+   
