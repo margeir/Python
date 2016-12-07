@@ -6,7 +6,7 @@ from Marel.Mp5.Base.Diagnostics import MpsTraceSwitch
 from Marel.Mp5.Process.UnitOperations import UnitException
 from Marel.Mp5.Process.Services.UnitOperations import OperationContext
 from System import Random
- 
+#Búinn að gera þær breytingar hér sem þarf 
  
 trace.Put("Running script for calculating pallet weight")
 sktara = context.Data.UnitDeviceTare
